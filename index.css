@@ -46,6 +46,11 @@ body{
   border-top-right-radius: 25px;
 
 }
+
+svg{
+    height: 90%;
+    
+}
 .infor{
   position: relative;
   z-index: 30;

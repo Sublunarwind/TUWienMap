@@ -324,6 +324,10 @@ function resetcolours(){
     for (var i = 0; i <= (array_of_points.length - 1); i += 1) {
     array_of_points[i].style.fill = array_of_points_colours[i];
 }
+    
+    array_of_points.length=0;
+    array_of_points_colours.length= 0; 
+console.log(array_of_points_colours); 
 };
 
 function resetarray(){
