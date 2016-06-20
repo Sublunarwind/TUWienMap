@@ -311,8 +311,8 @@ function change_pathcolor() {
         
         array_of_points_colours.push(array_of_points[i].getAttribute("fill"));
        
-        array_of_points[i].style.fill = "#000000";
-        
+        array_of_points[i].setAttribute("fill", "#000000") ; 
+        array_of_points[i].setAttribute("r", "40");
  console.log(array_of_points_colours);        
     }
    
@@ -322,7 +322,9 @@ function change_pathcolor() {
 function resetcolours(){
     console.log(array_of_points_colours);
     for (var i = 0; i <= (array_of_points.length - 1); i += 1) {
-    array_of_points[i].style.fill = array_of_points_colours[i];
+    array_of_points[i].setAttribute("fill", array_of_points_colours[i]);
+    array_of_points[i].setAttribute("r", "10")    
+        
 }
     
     array_of_points.length=0;

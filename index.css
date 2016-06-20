@@ -48,7 +48,8 @@ body{
 }
 
 svg{
-    height: 90%;
+    width: 120%;
+    margin-left: 20px;
     
 }
 .infor{
@@ -60,7 +61,7 @@ svg{
   margin-left: -2%;
 
   height: 90%;
-  background-color: rgb(143, 190, 229);
+  background-color: rgb(255, 255, 255);
   /*border: 1px solid black;*/
   border-top-right-radius: 25px;
 
