@@ -1,0 +1,74 @@
+html{
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+
+}
+body{
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+}
+.mainpart{
+  height: 82%;
+  width: 100%;
+
+
+  background-color: rgb(222, 231, 236);
+  /*background-color: green;*/
+}
+.bar{
+  text-align: center;
+  position: relative;
+  z-index: 100;
+  margin-top: 4%;
+  float: left;
+  width: 15%;
+  height: 90%;
+  background-color: rgb(0, 102, 153);
+  /*border: 1px solid black;*/
+  border-top-right-radius: 25px;
+}
+.search{
+  color: rgb(255, 255, 255);
+}
+.map{
+  position: relative;
+  z-index: 50;
+  float: left;
+  width: 70%;
+  height: 90%;
+  margin-top: 4%;
+  margin-left: -2%;
+  background-color: rgb(255, 255, 255);
+  border-top-right-radius: 25px;
+
+}
+.infor{
+  position: relative;
+  z-index: 30;
+  margin-top: 4%;
+  float: left;
+  width: 19%;
+  margin-left: -2%;
+
+  height: 90%;
+  background-color: rgb(143, 190, 229);
+  /*border: 1px solid black;*/
+  border-top-right-radius: 25px;
+
+}
+.footer{
+  text-align: center;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  background-color: rgb(222, 231, 236);
+  height: 7.5%;
+}
+.footer p{
+  font-family: Arial;
+  font-size: 50%;
+}
